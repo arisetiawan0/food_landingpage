@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>YINN – Anak Kos Punya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER & HERO -->
+  <header id="home">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#home" class="brand">
+          <!-- ganti src logo kamu -->
+          <img src="img/logo.jpeg" alt="Logo YINN" class="brand-logo" />
+          <div class="brand-text">
+            <span class="brand-name">YINN</span>
+            <span class="brand-tagline">anak kos punya</span>
+          </div>
+        </a>
+        <div class="nav-links">
+          <a href="#benefits">Keunggulan</a>
+          <a href="#menu">Menu</a>
+          <a href="#cart">Keranjang</a>
+          <a href="#contact">Kontak</a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-text">
+          <div class="hero-badge">
+            🍛 YINN – Anak Kos Punya • BTN Griya Maharaja
+          </div>
+          <h1>Makan Enak Setiap Hari, Mulai 5K Aja.</h1>
+          <p class="tagline">
+            Lauk rumahan hangat, porsi pas anak kos, harga tetap bersahabat.
+          </p>
+          <p>
+            Tinggal pilih lauk & sayur favoritmu, tambahkan nasi kalau perlu,
+            lalu konfirmasi pesanan lewat WhatsApp. Cocok untuk kamu yang
+            tidak mau ribet masak tapi tetap ingin makan layak setiap hari.
+          </p>
+          <div class="cta-group">
+            <a class="btn-outline" href="#menu">Lihat & Pilih Menu Sekarang</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-image-inner">
+            <h3>Contoh Paket Lahap</h3>
+            <p>Ayam Suwir + Tumis Pakis + Nasi Putih Hangat</p>
+            <span class="hero-tag">Mulai 5K per item</span>
+            <span class="hero-tag">Bisa mix lauk & sayur</span>
+            <span class="hero-tag">Area BTN Griya Maharaja</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ⬇️ SEBELUMNYA DI SINI “Kenapa Harus YINN?”, SEKARANG DIGANTI “Cara Pesan” -->
+
+  <!-- CARA PESAN -->
+  <section id="order">
+    <div class="container">
+      <h2>Cara Pesan di YINN</h2>
+      <p class="subtitle">
+        Dibuat sesimpel mungkin, biar kamu bisa pesan makanan sambil rebahan.
+      </p>
+
+      <div class="steps">
+        <div class="step">
+          <h3>Pilih Menu</h3>
+          <p>
+            Scroll ke bagian menu, lalu pilih lauk, sayur, dan nasi sesuai selera dan budget harianmu.
+          </p>
+        </div>
+        <div class="step">
+          <h3>Tambah ke Keranjang</h3>
+          <p>
+            Klik tombol <em>"Tambah ke Keranjang"</em> di tiap menu sampai kombinasi makanmu terasa pas.
+          </p>
+        </div>
+        <div class="step">
+          <h3>Konfirmasi via WhatsApp</h3>
+          <p>
+            Buka bagian keranjang, cek total dan detail, lalu klik tombol
+            <em>"Konfirmasi Pesanan via WhatsApp"</em>.
+          </p>
+        </div>
+        <div class="step">
+          <h3>Tinggal Tunggu Dibuat</h3>
+          <p>
+            Kami akan konfirmasi pesananmu. Setelah itu tinggal ambil di lokasi atau tunggu sesuai kesepakatan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU (Sesuai Poster) -->
+  <section id="menu">
+    <div class="container">
+      <h2>Menu YINN – Anak Kos Punya</h2>
+      <p class="subtitle">
+        Pilih kombinasi lauk, sayur, dan nasi sesuai selera. Semua harga dan nama menu
+        sudah jelas, jadi kamu bisa atur budget sendiri.
+      </p>
+
+      <!-- MENU 5K -->
+      <h3 style="font-size:0.95rem;margin-bottom:8px;">Lauk & Sayur 5K</h3>
+      <div class="menu-grid" style="margin-bottom:24px;">
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/tahu-tempe-sambal.jpeg" alt="Tahu Tempe Sambal">
+          </div>
+          <h3>Tahu Tempe Sambal</h3>
+          <p>
+            Kombinasi tahu dan tempe dengan sambal gurih pedas, hemat tapi tetap nagih.
+          </p>
+          <p class="price">5K</p>
+          <button class="btn-primary btn-add" data-name="Tahu Tempe Sambal" data-price="5000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/bihun-goreng.jpeg" alt="Bihun Goreng">
+          </div>
+          <h3>Bihun Goreng</h3>
+          <p>
+            Bihun goreng rumahan yang ringan dan gurih, enak dimakan sendiri atau jadi pelengkap.
+          </p>
+          <p class="price">5K</p>
+          <button class="btn-primary btn-add" data-name="Bihun Goreng" data-price="5000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/tumis-pakis.jpeg" alt="Tumis Pakis">
+          </div>
+          <h3>Tumis Pakis</h3>
+          <p>
+            Sayur pakis tumis pedas ringan, bantu kamu tetap makan sayur walau lagi ngehemat.
+          </p>
+          <p class="price">5K</p>
+          <button class="btn-primary btn-add" data-name="Tumis Pakis" data-price="5000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/telur-balado.jpeg" alt="Telur Balado">
+          </div>
+          <h3>Telur Balado</h3>
+          <p>
+            Telur dengan sambal balado merah yang mantap, cocok buat kamu yang doyan pedas.
+          </p>
+          <p class="price">5K</p>
+          <button class="btn-primary btn-add" data-name="Telur Balado" data-price="5000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/gulai-nangka.jpeg" alt="Gulai Nangka">
+          </div>
+          <h3>Gulai Nangka</h3>
+          <p>
+            Nangka muda dengan kuah santan gurih, bestie-nya nasi putih hangat.
+          </p>
+          <p class="price">5K</p>
+          <button class="btn-primary btn-add" data-name="Gulai Nangka" data-price="5000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+      </div>
+
+      <!-- MENU 10K -->
+      <h3 style="font-size:0.95rem;margin-bottom:8px;">Lauk 10K</h3>
+      <div class="menu-grid" style="margin-bottom:24px;">
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/ayam-suwir.jpeg" alt="Ayam Suwir">
+          </div>
+          <h3>Ayam Suwir</h3>
+          <p>
+            Ayam disuwir halus dengan bumbu pedas gurih, praktis dimakan dan bikin nambah nasi.
+          </p>
+          <p class="price">10K</p>
+          <button class="btn-primary btn-add" data-name="Ayam Suwir" data-price="10000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/rica-rica-ayam.jpeg" alt="Rica-Rica Ayam">
+          </div>
+          <h3>Rica-Rica Ayam</h3>
+          <p>
+            Ayam rica-rica pedas nendang untuk kamu yang suka tantangan cabai di setiap suapan.
+          </p>
+          <p class="price">10K</p>
+          <button class="btn-primary btn-add" data-name="Rica-Rica Ayam" data-price="10000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/gulai-ayam.jpeg" alt="Gulai Ayam">
+          </div>
+          <h3>Gulai Ayam</h3>
+          <p>
+            Gulai ayam kuah santan hangat, cocok saat tanggal tua maupun tanggal muda.
+          </p>
+          <p class="price">10K</p>
+          <button class="btn-primary btn-add" data-name="Gulai Ayam" data-price="10000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+      </div>
+
+      <!-- MENU 15K + NASI -->
+      <h3 style="font-size:0.95rem;margin-bottom:8px;">Lauk 15K & Tambahan</h3>
+      <div class="menu-grid">
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/sambal-ikan-kembung.jpeg" alt="Sambal Ikan Kembung">
+          </div>
+          <h3>Sambal Ikan Kembung</h3>
+          <p>
+            Ikan kembung dengan sambal pedas, cocok buat kamu yang kangen masakan rumah.
+          </p>
+          <p class="price">15K</p>
+          <button class="btn-primary btn-add" data-name="Sambal Ikan Kembung" data-price="15000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/tongkol-suwir.jpeg" alt="Suwir Ikan Tongkol">
+          </div>
+          <h3>Suwir Ikan Tongkol</h3>
+          <p>
+            Ikan tongkol disuwir dengan bumbu pedas gurih, pas jadi lauk utama di piringmu.
+          </p>
+          <p class="price">15K</p>
+          <button class="btn-primary btn-add" data-name="Suwir Ikan Tongkol" data-price="15000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+        <div class="card">
+          <div class="menu-photo">
+            <img src="img/nasi-putih.jpg" alt="Nasi Putih">
+          </div>
+          <h3>+ Nasi</h3>
+          <p>
+            Nasi putih hangat, porsinya pas untuk satu kali makan anak kos yang lapar.
+          </p>
+          <p class="price">5K</p>
+          <button class="btn-primary btn-add" data-name="Nasi Putih" data-price="5000">
+            Tambah ke Keranjang
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KERANJANG -->
+  <section id="cart">
+    <div class="container">
+      <h2>Keranjang Pesanan</h2>
+      <p class="subtitle">
+        Cek lagi pilihanmu sebelum dikirim ke WhatsApp. Jika sudah pas, tinggal klik satu tombol.
+      </p>
+
+      <div class="cart-box">
+        <div id="cart-empty">Keranjang masih kosong. Tambahkan dulu lauk atau sayur yang kamu mau.</div>
+
+        <table id="cart-table" class="cart-table">
+          <thead>
+            <tr>
+              <th>Menu</th>
+              <th class="cart-center">Qty</th>
+              <th>Subtotal</th>
+            </tr>
+          </thead>
+          <tbody id="cart-items"></tbody>
+        </table>
+
+        <div class="cart-footer">
+          <div class="cart-total-label">Total Sementara:</div>
+          <div id="cart-total" class="cart-total-value">Rp 0</div>
+          <button id="cart-order-btn" class="btn-primary cart-order-btn" disabled>
+            Konfirmasi Pesanan via WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⬇️ SEBELUMNYA “Cara Pesan”, SEKARANG DIISI “Kenapa Harus YINN?” -->
+
+  <!-- KEUNGGULAN -->
+  <section id="benefits">
+    <div class="container">
+      <h2>Kenapa Harus YINN?</h2>
+      <p class="subtitle">
+        Dibuat khusus untuk anak kos yang mau makan enak tanpa bikin dompet menjerit.
+      </p>
+
+      <div class="benefits-grid">
+        <div class="card">
+          <h3>Mulai dari 5K</h3>
+          <p>
+            Pilih lauk atau sayur mulai 5.000. Tinggal mix & match sesuai budget harianmu.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Rasa Rumahan Banget</h3>
+          <p>
+            Bumbu rumahan, bukan rasa ala kadarnya. Bikin makan terasa seperti di rumah sendiri.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Porsi Pas Anak Kos</h3>
+          <p>
+            Porsi disesuaikan untuk sekali makan: cukup kenyang, tidak mubazir, tetap hemat.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Tinggal Chat, Beres</h3>
+          <p>
+            Pilih menu, masukin ke keranjang, lalu kirim ke WhatsApp. Tidak perlu ribet ngetik manual.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <h2>FAQ – Pertanyaan yang Sering Ditanyakan</h2>
+      <p class="subtitle">
+        Masih ragu? Cek dulu beberapa jawaban singkat di bawah ini.
+      </p>
+
+      <div class="faq">
+        <div class="faq-item">
+          <b>Minimal order berapa?</b>
+          Untuk satu orang tidak ada minimal, kamu bisa ambil 1 lauk saja. Untuk pesanan banyak atau rombongan, 
+          silakan chat dulu untuk kami bantu hitungkan.
+        </div>
+        <div class="faq-item">
+          <b>Lokasi di mana?</b>
+          Dapur YINN berada di BTN Griya Maharaja, Blok C No 14. Detail titik bisa dikirim lewat WhatsApp.
+        </div>
+        <div class="faq-item">
+          <b>Jam buka?</b>
+          Fokus utama untuk makan siang. Namun jam bisa menyesuaikan, lebih aman chat dulu untuk konfirmasi.
+        </div>
+        <div class="faq-item">
+          <b>Bisa antar?</b>
+          Antar menyesuaikan jarak dan kesepakatan. Tulis lokasi kamu saat chat, nanti kami infokan kemungkinan dan biayanya.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">YINN – Anak Kos Punya</div>
+        <p>
+          Solusi makan harian buat kamu yang tinggal di BTN Griya Maharaja dan sekitarnya.
+          Enak, sederhana, dan tidak bikin kantong kaget.
+        </p>
+      </div>
+      <div>
+        <p><b>Kontak</b></p>
+        <p>WhatsApp: <a href="https://wa.me/6281387263351">0813 8726 3351</a></p>
+      </div>
+      <div>
+        <p><b>Alamat</b></p>
+        <p>BTN Griya Maharaja, Blok C No 14</p>
+      </div>
+    </div>
+    <div class="container" style="margin-top: 15px; text-align:center;">
+      © <span id="year"></span> YINN – Anak Kos Punya. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- TOAST UNTUK NOTIF KERANJANG -->
+  <div id="cart-toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
