@@ -647,3 +647,26 @@ footer a {
     text-align: center;
   }
 }
+/* ===============================
+   BOTPRESS BUBBLE ONLY (CLEAN)
+   =============================== */
+
+#bp-web-widget,
+.bp-widget-web,
+.bpw-widget-container {
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 24px !important;
+  left: auto !important;
+  z-index: 9999999 !important;
+}
+
+/* JANGAN sentuh iframe / panel */
+/* ===============================
+   BOTPRESS BUBBLE ONLY (FINAL)
+   =============================== */
+
+#bp-web-widget {
+  z-index: 2147483647 !important;
+}
+
